@@ -10,8 +10,13 @@ function getMatrix() {
 
 function main() {
     const mat = getMatrix();
-    for (let i = 0; i <=4; i += 1) {
-        console.log(mat[i][i]);
+    
+    for (let i = 0; i < mat.length; i += 1) {
+        const row = mat[i];
+        const f = row[0];
+        const l = row[4];
+        
+        console.log(`${f} ${l}`);
     }
     
 }
