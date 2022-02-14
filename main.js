@@ -11,7 +11,7 @@ function getMatrix() {
 function main() {
     const mat = getMatrix();
     for (let i = 0; i <=4; i += 1) {
-    console.log(mat[i][i]);
+        console.log(mat[i][i]);
     }
     
 }
