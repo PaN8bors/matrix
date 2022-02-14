@@ -14,7 +14,7 @@ function main() {
     for (let i = 0; i < mat.length; i += 1) {
         const row = mat[i];
         const f = row[0];
-        const l = mat.length;
+        const l = row[(mat.length) - 1];
         console.log(`${f} ${l}`);
     }
     
