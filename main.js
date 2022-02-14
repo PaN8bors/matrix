@@ -10,11 +10,10 @@ function getMatrix() {
 
 function main() {
     const mat = getMatrix();
-    console.log(mat[0][0]);
-    console.log(mat[1][1]);
-    console.log(mat[2][2]);
-    console.log(mat[3][3]);
-    console.log(mat[4][4]);
+    for (let i = 0; i <=4; i += 1) {
+    console.log(mat[i][i]);
+    }
+    
 }
 
 main();
